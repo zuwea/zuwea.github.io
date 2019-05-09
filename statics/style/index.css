@@ -1,0 +1,65 @@
+.slideBox{width:100%;height:400px;overflow:hidden;position:relative;}
+.slideBox .hd{height:5px;overflow:hidden;width:100%;z-index:1;}
+.slideBox .hd ul{overflow:hidden;zoom:1;}
+.slideBox .hd ul li{float:left;width:33.33%;height:5px;background:#cccccc;cursor:pointer;}
+.slideBox .hd ul li.on{background:#0092ce;width:33.34%;}
+
+.slideBox .bd{position:relative;height:395px;z-index:0;}
+.slideBox .bd li{zoom:1;vertical-align:middle;height:395px;width:100%;min-width:1200px;overflow:hidden;position:relative;}
+.slideBox .bd li div{position:absolute;left:50%;margin-left:-960px;}
+
+.title{padding:60px 0 40px 0;}
+.title p{text-align:center;}
+.title p.cn{font-size:30px;color:#474747;line-height:40px;font-family:"宋体";font-weight:bold;}
+.title p.en{color:#999999;line-height:14px;padding-bottom:8px;font-family:Arial;}
+.server_bg{background:#f4f4f4;}
+.server_ul{padding-bottom:90px;overflow: hidden;}
+.server_ul li{width:264px;padding-right:48px;float:left;}
+.server_ul a{width:100%;display:block;}
+.s_top{height:175px;background:center center no-repeat #f2a11a;}
+.s_text{position:absolute;z-index:1;width:264px;}
+.s_text p{color:#666666;padding:0 18px;}
+.server_ul a:hover .s_text p{color:#fff;}
+.s_text p.s_tit{text-align:center;font-size:24px;line-height:80px;color:#333;}
+.s_b{height:207px;}
+.s_s{height:3px;}
+.server_ul .server_li_0 .s_top{background:url('../pic/s_1.png') center center no-repeat #48baff;}
+.server_ul .server_li_0 .s_s{background:#48baff;}
+.server_ul .server_li_1 .s_top{background:url('../pic/s_2.png') center center no-repeat #01bf45;}
+.server_ul .server_li_1 .s_s{background:#01bf45;}
+.server_ul .server_li_2 .s_top{background:url('../pic/s_3.png') center center no-repeat #fd8c48;}
+.server_ul .server_li_2 .s_s{background:#fd8c48;}
+.server_ul .server_li_3{padding-right: 0;}
+.server_ul .server_li_3 .s_top{background:url('../pic/s_4.png') center center no-repeat #7547e7;}
+.server_ul .server_li_3 .s_s{background:#7547e7;}
+
+
+
+.case_bg{background:#333333;}
+.case_bg .title p.cn{color:#fff;}
+.case_bg .title p.en{color:#eee;}
+
+.da-thumbs { list-style: none; min-width: 1004px;  position: relative; margin: 20px auto; padding: 0; overflow: hidden;}
+.da-thumbs li { float: left;width:264px;padding:0 18px 20px 18px;position: relative; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+
+.da-thumbs li a,.da-thumbs li a img { display: block; position: relative; width:100%; height:192px;}
+.da-thumbs li a { overflow: hidden; }
+.da-thumbs li a div { position: absolute; background: #00c3c5; width: 100%; height:192px;overflow: hidden; opacity: 0.7; filter: alpha(opacity=70); }
+.da-thumbs li a div.da-animate { -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+.da-slideFromTop { left: 0px; top: -100%; }
+.da-slideFromBottom { left: 0px; top: 100%; }
+.da-slideFromLeft { top: 0px; left: -100%; }
+.da-slideFromRight { top: 0px; left: 100%; }
+/* Final state classes: */
+.da-slideTop { top: 0px; }
+.da-slideLeft { left: 0px; }
+.da-thumbs li a div span { display: block; padding: 10px 0; margin: 40px 20px 20px 20px; text-transform: uppercase; font-weight: normal; color: rgba(255,255,255,0.9); text-shadow: 1px 1px 1px rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.5); box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3); }
+
+
+
+.client{padding-bottom:50px;}
+.client_ul{width:1197px;border-left:1px solid #e8e8e8;border-bottom:1px solid #e8e8e8;display:table}
+.client_ul td{width:170px;height:113px;border-right:1px solid #e8e8e8;border-top:1px solid #e8e8e8;text-align:center;vertical-align:middle;display:table-cell;background:#fff;}
+.client_ul td img{ vertical-align:middle;-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: grayscale(100%);filter: gray;}
+.client_ul td:hover img{-webkit-filter: grayscale(0);-moz-filter: grayscale(0);-ms-filter: grayscale(0);-o-filter: grayscale(0);filter: grayscale(0);filter: gray;}

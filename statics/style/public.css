@@ -1,0 +1,50 @@
+*{margin:0;padding:0;font:12px/20px Arial,Microsoft Yahei;text-decoration:none;list-style:none;border:none;}
+textarea,input,select{border:0;outline:none;}
+.clear{height:0px;clear:both;font-size:0px;line-height:0px;zoom:1;}
+.qpgs{width:100%;min-width:1200px;}
+.zgzj{width:1200px;margin:0 auto;}
+.fr{float:right;}
+.fl{float:left;}
+.moh{ position:absolute; z-index:-1;}
+.qch{}
+body{background-color:#fbfbfb;}
+#header_bg{height:100px;background-color:#FFF;position:fixed;z-index:101;border-bottom:1px solid #eee;box-shadow:0px 0px 5px #aaa;}
+#header{height:100px;}
+#logo{margin:17px 64px 0 0;float:left;}
+#nav{float:left;margin-top:60px;}
+#nav li{float:left;width:104px;height:20px;overflow:hidden;}
+#nav li *{color:#333333;font-size:13px;display:block;}
+#nav a{color:#1488d1;}
+#nav a.hov{color:#333333;}
+#tel{padding:59px 45px 0 0;float:right;}
+#e_menu{height:0;overflow:hidden;position:absolute;background-color:#FFF;top:100px;border-bottom:1px solid #ddd;}
+ul.menu{float:left;width:103px;border-left:1px solid #ddd;}
+ul.menu:first-child{padding-left:445px;border:none;}
+ul.menu a{line-height:24px;color:#666666;padding-left:10px;}
+ul.menu a:hover{color:#1488d1;}
+.zhanw{height:100px;}
+.footer_bg{background:#222;color:#fff;text-align:center;}
+.footer_bg *{color:#fff;}
+#footer{padding:20px 0;}
+#footer p,#footer p *{line-height:24px;}
+.foot_qq{width:200px;margin:0 auto;padding-bottom:6px;}
+.foot_qq a{background:url("../pic/footer-qq.png") center center no-repeat;width:100px;height:24px;line-height:24px;display:block;float:left;text-indent:18px;}
+.bolg{background:url("../pic/blog.png") right center no-repeat;padding:2px 25px 2px 0;line-height:24px;}
+.bah{overflow:hidden;width:202px;margin:0 auto;}
+.bah a{display:block;height:24px;line-height:24px;float:left;margin-left:5px;}
+.bah span{padding-bottom:5px;}
+.qq{width:120px;position:fixed;bottom:100px;right:0;z-index:999;}
+.qq-head{height:36px;}
+.qq-list{border-left:1px solid #2784dd;border-right:1px solid #2784dd;padding:0 10px;background:#fff;}
+.qq-list ul li{height:35px;line-height:35px;border-bottom:1px solid #ddd;background:url(../pic/qq-ico.png) no-repeat 5px center;padding-left:30px;}
+.qq-list ul li a{color:#666;}
+.qq-list ul li.last{border-bottom:none;}
+.qq-bott{height:137px;}
+
+
+
+
+
+
+
+
